@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartPig - Chiqueiro Autolimpante</title>
 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>🐷 SmartPig</h1>
+    <p>Sistema Inteligente de Chiqueiro Autolimpante</p>
+</header>
+
+<section class="hero">
+    <h1>Automação Rural Inteligente</h1>
+
+    <p>
+        Monitore e controle a limpeza do chiqueiro em tempo real,
+        reduzindo custos operacionais e aumentando o bem-estar animal.
+    </p>
+
+    <a href="#dashboard" class="btn">Ver Dashboard</a>
+</section>
+
+<section class="cards">
+
+    <div class="card">
+        <h3>🚿 Limpeza Automática</h3>
+        <p>Raspagem e lavagem controladas automaticamente.</p>
+    </div>
+
+    <div class="card">
+        <h3>📡 Sensores Inteligentes</h3>
+        <p>Monitoramento constante do ambiente.</p>
+    </div>
+
+    <div class="card">
+        <h3>📱 Controle Remoto</h3>
+        <p>Acesso pelo celular ou computador.</p>
+    </div>
+
+</section>
+
+<section class="dashboard" id="dashboard">
+
+    <h2>Dashboard</h2>
+
+    <div class="status">
+
+        <div class="box">
+            <h3>Status</h3>
+            <p id="status">Operando</p>
+        </div>
+
+        <div class="box">
+            <h3>Última Limpeza</h3>
+            <p id="ultima-limpeza">09/06/2026 - 08:30</p>
+        </div>
+
+        <div class="box">
+            <h3>Nível de Sujeira</h3>
+            <p id="sujeira">15%</p>
+        </div>
+
+    </div>
+
+    <button class="btn" onclick="limpezaManual()">
+        Iniciar Limpeza
+    </button>
+
+</section>
+
+<footer>
+    <p>© 2026 SmartPig - Automação Rural</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
